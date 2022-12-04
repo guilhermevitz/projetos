@@ -1,27 +1,43 @@
 .about {
   width: 100%; 
-  .container {
-   padding-top: 12.8rem;
-   .sobre-img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 3.2rem;
+  margin-top: 12.8rem;  
+  display: flex;
+  align-items: center; 
+  column-gap: 32px;
+  align-self: baseline;
+  justify-content: center;
+  .imgs-container {
+    display: flex;     
+    column-gap: 32px;  
+    height: 60.4rem;   
+    align-items: flex-end;
+    .first-img {      
+      align-self: flex-start;
+    }    
+    img {
+      height: 53.9rem;
+    }
+  }   
     .texto-apoio { 
       max-width: 100%;
-      width: 50.1rem;     
+      width: 50.1rem;
+      .square {
+        width: 10px;
+        height: 10px;
+        background-color: #71C7A7;
+        display: inline-block;
+        margin-right: 0.8rem;        
+      }     
       span {        
-        color: $gray-01;      
+        color: $gray-01;           
       }
       h2 {
         padding-top: 0.8rem;
       }
       p {
         padding-top: 0.8rem;
-      }       
-    }
-   }
-  }
+      }   
+   }  
 }
 
 .vantagens {
@@ -65,17 +81,23 @@
 .nossos-produtos {
   width: 100%;
   .container {
-    .prod-texto {
+    .prod-texto {      
+      display: flex;
+      align-items: center;
+      gap: 1.6rem;
+      justify-content: center;
+      padding-bottom: 4.8rem;
+      .square {
+        width: 10px;
+        height: 10px;
+        background-color: #71C7A7;
+        display: inline-block;
+        margin-right: 0.8rem;        
+      }     
       span {        
         color: $gray-01;      
-      }
-      h2 {       
-        padding-top: 0.8rem;
-        padding-bottom: 0.8rem;
-      }
-      p {       
-        padding-top: 0.8rem;
-        padding-bottom: 4.8rem;
+      }      
+      p {        
         color: $gray-01;
         width: 100%;
         max-width: 34.5rem;

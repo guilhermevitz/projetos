@@ -36,14 +36,6 @@ button {
   margin: 0 auto;
 }
 
-.full-width {
-  position: absolute;
-  width: 650px;
-  height: 709px;
-  left: 790px;
-  top: 0px;
-}
-
 h1 {
   font-weight: 800;
   font-size: 64px;
@@ -186,53 +178,78 @@ h1, h2, h3, h4 {
 
 .s-hero {
   width: 100%;
+  height: 70.9rem;
   background-color: #EFB81F;
+  display: grid;
+  flex: 1;
+  grid-template-columns: 53% 47%;
 }
 .s-hero .container {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
+  flex: 1;
+  padding-right: 8.6rem;
 }
-.s-hero .container .text {
+.s-hero .container .content {
   width: 100%;
   max-width: 60.6rem;
 }
-.s-hero .container .text h1 {
+.s-hero .container .content h1 {
   padding-bottom: 2.4rem;
 }
-.s-hero .container .text p {
+.s-hero .container .content p {
   color: #FFFFFF;
   padding-bottom: 4rem;
 }
-.s-hero .container .text .hero-img {
+.s-hero .hero-img {
+  background-color: aqua;
+}
+.s-hero .hero-img img {
   width: 100%;
-  max-width: 65rem;
+  height: 70.9rem;
+  object-fit: fill;
 }
 
 .about {
   width: 100%;
-}
-.about .container {
-  padding-top: 12.8rem;
-}
-.about .container .sobre-img {
+  margin-top: 12.8rem;
   display: flex;
   align-items: center;
+  column-gap: 32px;
+  align-self: baseline;
   justify-content: center;
-  gap: 3.2rem;
 }
-.about .container .sobre-img .texto-apoio {
+.about .imgs-container {
+  display: flex;
+  column-gap: 32px;
+  height: 60.4rem;
+  align-items: flex-end;
+}
+.about .imgs-container .first-img {
+  align-self: flex-start;
+}
+.about .imgs-container img {
+  height: 53.9rem;
+}
+.about .texto-apoio {
   max-width: 100%;
   width: 50.1rem;
 }
-.about .container .sobre-img .texto-apoio span {
+.about .texto-apoio .square {
+  width: 10px;
+  height: 10px;
+  background-color: #71C7A7;
+  display: inline-block;
+  margin-right: 0.8rem;
+}
+.about .texto-apoio span {
   color: #4C5053;
 }
-.about .container .sobre-img .texto-apoio h2 {
+.about .texto-apoio h2 {
   padding-top: 0.8rem;
 }
-.about .container .sobre-img .texto-apoio p {
+.about .texto-apoio p {
   padding-top: 0.8rem;
 }
 
@@ -280,16 +297,24 @@ h1, h2, h3, h4 {
 .nossos-produtos {
   width: 100%;
 }
+.nossos-produtos .container .prod-texto {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  justify-content: center;
+  padding-bottom: 4.8rem;
+}
+.nossos-produtos .container .prod-texto .square {
+  width: 10px;
+  height: 10px;
+  background-color: #71C7A7;
+  display: inline-block;
+  margin-right: 0.8rem;
+}
 .nossos-produtos .container .prod-texto span {
   color: #4C5053;
 }
-.nossos-produtos .container .prod-texto h2 {
-  padding-top: 0.8rem;
-  padding-bottom: 0.8rem;
-}
 .nossos-produtos .container .prod-texto p {
-  padding-top: 0.8rem;
-  padding-bottom: 4.8rem;
   color: #4C5053;
   width: 100%;
   max-width: 34.5rem;
