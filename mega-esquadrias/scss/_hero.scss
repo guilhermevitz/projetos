@@ -1,0 +1,22 @@
+.s-hero {
+  width: 100%;
+  background-color: $yellow-01;   
+  .container {
+    @include flex(row, center, space-between);         
+    .text {    
+      width: 100%;
+      max-width: 60.6rem;
+      h1 {
+        padding-bottom: 2.4rem;        
+      }
+      p {
+        color: $white;
+        padding-bottom: 4rem;
+      }
+      .hero-img {        
+        width: 100%;
+        max-width: 65rem;
+      }
+    }
+  }
+}

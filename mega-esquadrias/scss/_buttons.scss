@@ -1,0 +1,72 @@
+.btn-primary {
+  display: inline-block;
+  line-height: 2.3rem;
+  background-color: $black-01;
+  padding: 2.4rem 6.5rem;
+  border-radius: 0.5rem;
+  font-family: 'THICCCBOI' , sans-serif;  
+  font-weight: 700;
+  font-size: 2.0rem;
+  color: $white;
+  transition: background-color .3s;
+  &:hover {
+    background-color: $black-02;
+  }
+}
+
+.bnt-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  line-height: 2.3rem;
+  background-color: transparent ; 
+  padding: 0px 1.2rem;
+  button {
+    font-family: 'THICCCBOI' sans-serif;    
+    font-weight: 600;
+    font-size: 2.0rem;
+    line-height: 2.3rem;
+    color: $black-01;
+  }
+}
+
+.btn-secondary
+.bnt-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 1.6rem;
+  width: max-content;
+  padding: 20px 1.2rem; 
+  line-height: 2.3rem;
+  border-radius: 0.4rem;   
+  background-color: $yellow-02;
+  color: $black-01;
+  transition: background-color .3s;
+  &:hover {
+    background-color: $yellow-01;   
+  }
+  button {
+    font-family: 'THICCCBOI' sans-serif;    
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    color: $black-01;
+  }
+}
+
+.btn-orc {
+    display: inline-block;
+    line-height: 2.3rem;
+    background-color: $black-01;
+    padding: 2.4rem 6.5rem;
+    border-radius: 0.5rem;
+    font-family: 'THICCCBOI' , sans-serif;  
+    font-weight: 700;
+    font-size: 2.0rem;
+    color: $white;
+    transition: background-color .3s;
+    &:hover {
+      background-color: $black-02;
+    }
+}

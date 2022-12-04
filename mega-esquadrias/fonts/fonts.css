@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'THICCCBOI Semi';
+  src: url('./fonts/THICCCBOI-Black.woff2') format('woff2'),
+      url('./fonts/-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: './fonts/';
+  src: url('./fonts/-Bold.woff2') format('woff2'),
+      url('./fonts/-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: './fonts/';
+  src: url('./fonts/-ExtraBold.woff2') format('woff2'),
+      url('./fonts/-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: './fonts/';
+  src: url('./fonts/-Light.woff2') format('woff2'),
+      url('./fonts/-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: './fonts/';
+  src: url('./fonts/-Regular.woff2') format('woff2'),
+      url('./fonts/-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: './fonts/';
+  src: url('./fonts/-SemiBold.woff2') format('woff2'),
+      url('./fonts/-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: './fonts/';
+  src: url('./fonts/-Medium.woff2') format('woff2'),
+      url('./fonts/-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: './fonts/';
+  src: url('./fonts/-ThicccAF.woff2') format('woff2'),
+      url('./fonts/-ThicccAF.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: './fonts/';
+  src: url('./fonts/-Thin.woff2') format('woff2'),
+      url('./fonts/-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
