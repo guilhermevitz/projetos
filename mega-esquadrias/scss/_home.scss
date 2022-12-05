@@ -99,7 +99,7 @@
       }     
       span {        
         color: $gray-01;      
-      }      
+      }       
       p {        
         color: $gray-01;
         width: 100%;
@@ -109,4 +109,42 @@
   } 
 }
 
-
+.conheca {
+  width: 100%;  
+  display: grid;
+  flex: 1;
+  grid-template-columns: 60% 40%;   
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;   
+    padding-right: 11.2rem;   
+  }
+  .content {    
+    width: 100%;
+    max-width: 53.3rem;
+    .square {
+      width: 10px;
+        height: 10px;
+        background-color: #71C7A7;
+        display: inline-block;
+        margin-right: 0.8rem;         
+    }    
+    h2 {
+      margin-top: 0.8rem;  
+      padding-bottom: 1.6rem;        
+    }
+    p {
+      color: $gray-01;
+      padding-bottom: 4rem;
+    }      
+  } 
+  .vantagens-img {
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;       
+    }    
+  }   
+}
