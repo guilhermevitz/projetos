@@ -184,14 +184,13 @@ h1, h2, h3, h4 {
   background-color: #EFB81F;
   display: grid;
   flex: 1;
-  grid-template-columns: 53% 47%;
+  grid-template-columns: 60% 40%;
 }
 .s-hero .container {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-evenly;
   flex: 1;
-  padding-right: 8.6rem;
 }
 .s-hero .container .content {
   width: 100%;
@@ -202,6 +201,7 @@ h1, h2, h3, h4 {
 }
 .s-hero .container .content p {
   color: #FFFFFF;
+  font-size: 2rem;
   padding-bottom: 4rem;
 }
 .s-hero .hero-img img {
