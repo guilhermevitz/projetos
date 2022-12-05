@@ -295,6 +295,9 @@ h1, h2, h3, h4 {
 
 .nossos-produtos {
   width: 100%;
+  background: linear-gradient(to left, #ffffff 0%, #ffffff 50%, #EFB81F 50%, #EFB81F 100%);
+  margin-bottom: 19.2rem;
+  padding: 10.9rem 0 6.4rem 0;
 }
 .nossos-produtos .container .prod-texto {
   display: flex;

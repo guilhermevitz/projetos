@@ -80,6 +80,9 @@
 
 .nossos-produtos {
   width: 100%;
+  background: linear-gradient( to left, #ffffff 0%, #ffffff 50%, $yellow-01 50%, $yellow-01 100% );
+  margin-bottom: 19.2rem;
+  padding: 10.9rem 0 6.4rem 0;
   .container {
     .prod-texto {      
       display: flex;
