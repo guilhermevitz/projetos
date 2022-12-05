@@ -32,8 +32,7 @@
 
 .btn-secondary
 .bnt-icon {
-  display: flex;
-  flex-direction: row;
+  display: flex;  
   align-items: center;
   margin-right: 1.6rem;
   width: max-content;
@@ -68,5 +67,8 @@
     transition: background-color .3s;
     &:hover {
       background-color: $black-02;
+    }
+    i {
+      margin-left: 0.8rem;
     }
 }

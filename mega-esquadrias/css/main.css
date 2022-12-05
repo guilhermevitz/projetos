@@ -138,7 +138,6 @@ h1, h2, h3, h4 {
 
 .btn-secondary .bnt-icon {
   display: flex;
-  flex-direction: row;
   align-items: center;
   margin-right: 1.6rem;
   width: max-content;
@@ -175,6 +174,9 @@ h1, h2, h3, h4 {
 .btn-orc:hover {
   background-color: #0B0B0B;
 }
+.btn-orc i {
+  margin-left: 0.8rem;
+}
 
 .s-hero {
   width: 100%;
@@ -201,9 +203,6 @@ h1, h2, h3, h4 {
 .s-hero .container .content p {
   color: #FFFFFF;
   padding-bottom: 4rem;
-}
-.s-hero .hero-img {
-  background-color: aqua;
 }
 .s-hero .hero-img img {
   width: 100%;
